@@ -331,7 +331,7 @@ GM_registerMenuCommand("重置数据", () => {
 });
 
 let SearchParams = new URLSearchParams(location.search);
-let ServerURL = (UtilityEnabled("DebugMode") ? "https://PythonSmall-Q.github.io/XMOJ-Script" : "https://www.seanoj.edu.eu.org")
+let ServerURL = (UtilityEnabled("DebugMode") ? "https://xmoj-script-dev.github.io/XMOJ-Script/" : "https://www.seanoj.edu.eu.org")
 let CurrentUsername = document.querySelector("#profile").innerText;
 CurrentUsername = CurrentUsername.replaceAll(/[^a-zA-Z0-9]/g, "");
 let IsAdmin = AdminUserList.indexOf(CurrentUsername) !== -1;
@@ -734,13 +734,13 @@ else {
                         let UpdateDataCardListItem = document.createElement("li"); UpdateDataCardList.appendChild(UpdateDataCardListItem);
                         UpdateDataCardListItem.className = "list-group-item";
                         UpdateDataCardListItem.innerHTML =
-                            "(<a href=\"https://github.com/PythonSmall-Q/XMOJ-Script/pull/" + Data.UpdateContents[j].PR + "\" target=\"_blank\">" +
+                            "(<a href=\"https://github.com/xmoj-script-dev/XMOJ-Script/pull/" + Data.UpdateContents[j].PR + "\" target=\"_blank\">" +
                             "#" + Data.UpdateContents[j].PR + "</a>) " +
                             Data.UpdateContents[j].Description;
                     }
                     let UpdateDataCardLink = document.createElement("a"); UpdateDataCardBody.appendChild(UpdateDataCardLink);
                     UpdateDataCardLink.className = "card-link";
-                    UpdateDataCardLink.href = "https://github.com/PythonSmall-Q/XMOJ-Script/releases/tag/" + Version;
+                    UpdateDataCardLink.href = "https://github.com/xmoj-script-dev/XMOJ-Script/releases/tag/" + Version;
                     UpdateDataCardLink.target = "_blank";
                     UpdateDataCardLink.innerText = "查看该版本";
                     new bootstrap.Modal(document.getElementById("UpdateModal")).show();
@@ -1028,7 +1028,7 @@ else {
                 let FeedbackCardLink = document.createElement("a");
                 FeedbackCardLink.className = "card-link";
                 FeedbackCardLink.innerText = "GitHub";
-                FeedbackCardLink.href = "https://github.com/PythonSmall-Q/XMOJ-Script";
+                FeedbackCardLink.href = "https://github.com/xmoj-script-dev/XMOJ-Script";
                 FeedbackCardBody.appendChild(FeedbackCardLink);
                 FeedbackCard.appendChild(FeedbackCardBody);
                 Container.appendChild(FeedbackCard);
@@ -2298,13 +2298,13 @@ else {
                                 let UpdateDataCardListItem = document.createElement("li"); UpdateDataCardList.appendChild(UpdateDataCardListItem);
                                 UpdateDataCardListItem.className = "list-group-item";
                                 UpdateDataCardListItem.innerHTML =
-                                    "(<a href=\"https://github.com/PythonSmall-Q/XMOJ-Script/pull/" + Data.UpdateContents[j].PR + "\" target=\"_blank\">" +
+                                    "(<a href=\"https://github.com/xmoj-script-dev/XMOJ-Script/pull/" + Data.UpdateContents[j].PR + "\" target=\"_blank\">" +
                                     "#" + Data.UpdateContents[j].PR + "</a>) " +
                                     Data.UpdateContents[j].Description;
                             }
                             let UpdateDataCardLink = document.createElement("a"); UpdateDataCardBody.appendChild(UpdateDataCardLink);
                             UpdateDataCardLink.className = "card-link";
-                            UpdateDataCardLink.href = "https://github.com/PythonSmall-Q/XMOJ-Script/releases/tag/" + Version;
+                            UpdateDataCardLink.href = "https://github.com/xmoj-script-dev/XMOJ-Script/releases/tag/" + Version;
                             UpdateDataCardLink.target = "_blank";
                             UpdateDataCardLink.innerText = "查看该版本";
                         }
