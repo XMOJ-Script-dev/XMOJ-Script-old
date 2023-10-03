@@ -1,3 +1,4 @@
+# 开发者repo转换，开发转到这里：[链接](https://github.com/XMOJ-Script-dev/XMOJ-Script/)
 ![Release](https://github.com/PythonSmall-Q/XMOJ-Script/actions/workflows/Release.yml/badge.svg)
 ![Prerelease](https://github.com/PythonSmall-Q/XMOJ-Script/actions/workflows/Prerelease.yml/badge.svg)
 ![GitHub](https://img.shields.io/github/license/PythonSmall-Q/XMOJ-Script)
@@ -6,6 +7,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/PythonSmall-Q/XMOJ-Script)
 
 [点击此处访问官网查看更多内容](https://www.seanoj.edu.eu.org)
+
 
 ### 介绍
 
@@ -86,3 +88,25 @@
 
 ### 贡献
 请注意, 请将所有 pull request 提交到`dev`分支, 否则他们会被自动关闭。
+
+### 开发组更换的通知
+
+“人有悲欢离合，月有阴晴圆缺，万事古难全”。在阴雨连绵的2023年十月，随着日本第二次排放福岛核废水，我们开启了开发的交接工作。
+
+何为万事古难全，我想，这恐怕是一次“难全”的事情吧。大家都知道，@chenlangning 是之前脚本的最初开发者和极大贡献者。@zhuchenrui2 是第二位加入脚本开发组的成员，而我则是最后才加入小明的OJ增强脚本开发大业的PM。
+
+毫不夸张地说，我是开发组中能力最差的。
+
+为什么我决定接手这个项目，是因为对这个项目的热爱。举个例子，我在中国某个上GitHub很困难的地方坚持修改脚本到23：34，我想，这应该算是一种坚持。
+
+我想各位看到这些，恐怕和我一样十分悲伤。开发组失去了一位重要的合作方，我的心中也似乎缺了点什么。我相信，脚本的末日不会很快到来。虽然我知道，我最终放弃这个项目不会很晚，但是我想，在我还负责这个项目的时候就把他做到极致。
+
+我忽然想到苏轼的《水调歌头》中还有一句话“但愿人长久，千里共婵娟”。
+
+衷心祝愿@chenlangning 在未来的文化课学习中能取得成功，也祝愿所有的OIers们国庆快乐！
+
+我也期待能在未来把这个项目做的更好，当然这也离不开大家的一贯支持。我愿与各位同学们一起砥砺前行，创造更美好的明天！
+
+同时，我也祝愿各位OIers们中秋快乐！
+
+——写于2023年10月2日
