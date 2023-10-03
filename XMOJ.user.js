@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         XMOJ
-// @version      1.0.202
+// @version      1.0.201
 // @description  XMOJ增强脚本
 // @author       @PythonSmall-Q
 // @namespace    https://github/langningchen
@@ -31,7 +31,7 @@
  */
 
 const CaptchaSiteKey = "0x4AAAAAAALBT58IhyDViNmv";
-const AdminUserList = ["zhuchenrui2", "shanwenxiao", "admin", "wangmaohua"];
+const AdminUserList = ["zhuchenrui2", "shanwenxiao", "admin"];
 
 let PurifyHTML = (Input) => {
     return DOMPurify.sanitize(Input, {
